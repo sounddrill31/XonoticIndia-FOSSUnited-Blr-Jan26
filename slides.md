@@ -88,10 +88,10 @@ A fun, past paced, Open Source(GPLv3+) Arena First Person Shooter!
 Presenter Notes:
 
 
-- <sub>-> 1996: id Software releases Quake and subsequently releases the source code for its engine under the GPL</sub>
-- <sub>-> 2005: Nexuiz, a free and open-source arena first-person shooter game, is first released. It used the DarkPlaces engine, an advanced engine derived from the Quake engine, as its base.</sub>
-- <sub>-> 2010: A controversy arises when the original developers of Nexuiz sell the rights to the name to Illfonic, who then developed and released a commercial version on Steam. The existing community, committed to a truly free and open-source project, decides to fork the game.</sub>
-- <sub>-> 2010 to Now: The community fork begins development with the goal of improving the game and avoiding past mistakes, leading to the birth of the Xonotic project. </sub>
+- 1996: id Software releases Quake and subsequently releases the source code for its engine under the GPL
+- 2005: Nexuiz, a free and open-source arena first-person shooter game, is first released. It used the DarkPlaces engine, an advanced engine derived from the Quake engine, as its base.
+- 2010: A controversy arises when the original developers of Nexuiz sell the rights to the name to Illfonic, who then developed and released a commercial version on Steam. The existing community, committed to a truly free and open-source project, decides to fork the game.
+- 2010 to Now: The community fork begins development with the goal of improving the game and avoiding past mistakes, leading to the birth of the Xonotic project. 
   - <sub>The initial release of Xonotic is launched, carrying forward the spirit and gameplay of the original community-focused Nexuiz.</sub>
 
 
@@ -168,6 +168,8 @@ We see a small influx of users, especially every time people move to linux and d
 
 <!--
 Presenter Notes:
+Costs nothing for me to run!
+
 People in India are also generally more accepting of linux and the paradigm shift as students and devs quickly become power users, sometimes even adopting arch linux or nixOS. 
 
 They tend to exploratorily try out various games that are recommended by their linux software centers.
@@ -175,16 +177,72 @@ They tend to exploratorily try out various games that are recommended by their l
 Screenshot of users talking about setting up servers on reddit 
 -->
 
---- 
-layout: 'two-cols-header'
+---
+layout: 'two-cols'
 ---
 
 # Getting Started
 
-Overview video by antibody, Download Link QR codes(warning 1.2gb)
+- Step-1: Download it from https://xonotic.org/download
+- Step-2: Extract the zip package
+- Step-3: Run the executable
+
+Alternatively, it can be found on:
+- Flathub for Flatpak users only
+- brew/Homebrew for MacOS users only
+
+![Download screen](./assets/Download.png)
+
+Supported by Windows, MacOS*, Linux Distros!
 
 ::right::
-d
+
+![mirrors list](./assets/Mirrors.png)
+
+<!--
+Presenter Notes:
+Download Link QR codes(warning 1.2gb)
+I will be running it from my distribution's package, sudo zypper install xonotic
+-->
+
+
+---
+
+# AVOID THE MICROSOFT STORE VERSION, IT IS FAKE/Unofficial
+last minute slide lol
+
+<img style="width: 75vw; " src="./assets/unofficial.png"></img>
+
+<!--
+Presenter Notes:
+Xonotic End by Samej_Play
+-->
+
+
+--- 
+layout: 'two-cols-header'
+---
+
+# Game Mechanics(Video Guide)
+Xonotic: A 10,000 ft Overview for Beginners (antibody)
+
+<!--
+Presenter Notes:
+Overview video by antibody
+
+Explains simple things like map guides, weapons, etc.
+-->
+
+<iframe src="https://www.youtube.com/embed/ev-rOXCzy_Y" title="Xonotic: A 10,000 ft Overview for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+::right::
+
+<img 
+  src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://www.youtube.com/watch?v=ev-rOXCzy_Y" 
+  class="w-45 h-45 rounded-xl shadow-lg border border-gray-200 bg-white p-2"
+/>
+
+https://www.youtube.com/watch?v=ev-rOXCzy_Y
 
 ---
 layout: 'two-cols-header'
@@ -231,13 +289,10 @@ const xonoticTimeline = [
 Presenter Notes:
 
 This had been a long time project for me, even back then. 
-
 I was getting tired of high lag playing on Australian servers.
 
 the server and what it's about
-
 Introduction what why when
-
 
 QR with website
 
@@ -265,17 +320,55 @@ Problems:
 - Lobby is dead most of the time(less than 3 concurrent players)
 - Uses custom source-compiled darkplaces
   - Stat counter services see this as a "modified" server(stats.xonotic.org does not save our data)
+- 0 Social Media Presence, not even SEO
 - Runs at-cost, where the cost is 0. 
   - I do not get paid for this, I do not pay for this.
 
----
-
-# Why Now?
-
-Revival (PUBG/BGMI-esque video thumbnail shown, post-indiafoss motivation to work on something new)
-
+<!-- 
+Presenter Notes:
 
 Issues(considered "modified" since darkplaces is compiled from source and a few more things, chat relay dies every few days, not built to scale past 25-50 concurrent users)
+-->
+
+---
+layout: 'two-cols'
+---
+
+# Why this? 
+Why now? Why at all?
+
+Why not?
+
+<img style="width: 55vw; " src="./assets/pubg-0.png"></img>
+
+
+::right::
+
+"Xonotic Free FPS Game Jo Asia Ko Hila De Gi Pakistan & India Mein Viral ..."
+
+"ASIA KA SASE TEZ FPS GAME  
+***XONOTIC***  
+PUBG SE BHI TEZ"
+
+\- Mr,Sensor Truthturnament (2025)
+
+
+<!--
+Presenter Notes:
+Saw one of videos these and got some motivation lol
+
+I wanted to do right by the people who stumble upon this game and feel bad because servers are deadchat. 
+
+Revival (PUBG/BGMI-esque video thumbnail shown, post-indiafoss motivation to go back to half abandoned things and work on them)
+
+more funny screenshots in the next slide
+-->
+
+---
+
+![img 1](./assets/pubg-1.png)
+![img 2](./assets/pubg-2.png)
+![img 3](./assets/pubg-3.png)
 
 
 ---
@@ -288,16 +381,30 @@ Gameplay demo will begin soon, if we have time.
 
 ::left::
 
-QR and URL to this presentation
+<img 
+  src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://github.com/sounddrill31/XonoticIndia-FOSSUnited-Blr-Jan26" 
+  class="w-45 h-45 rounded-xl shadow-lg border border-gray-200 bg-white p-2"
+/>
+
+https://github.com/sounddrill31/XonoticIndia-FOSSUnited-Blr-Jan26
+
+https://india.xonotic.au/slides
 
 ::right::
+
 # LLM Involvement
+Presentation, Content and CFP is original, otherwise untouched by an LLM :)
 
 AI Assisted:
 - Website Code for https://india.xonotic.au
 - Presentation: 
-  - Vue Components
-  - Diagram Formatting
-  - HTML scaffolding
+  - Vue Components(Timeline)
+  - Diagram Formatting(Mermaid Pie Chart)
+  - HTML scaffolding(Snippets Examples for images and more)
 
-Presentation, Content and CFP is original, otherwise untouched by an LLM :)
+<!--
+QR and URL to this presentation
+
+Presenter Notes:
+Time for Demo!!!
+-->
