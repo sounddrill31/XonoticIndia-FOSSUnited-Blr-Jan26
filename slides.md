@@ -211,7 +211,7 @@ I will be running it from my distribution's package, sudo zypper install xonotic
 # AVOID THE MICROSOFT STORE VERSION, IT IS FAKE/Unofficial
 last minute slide lol
 
-<img style="width: 75vw; " src="./assets/unofficial.png"></img>
+<img style="width: 55vw; " src="./assets/unofficial.png"></img>
 
 <!--
 Presenter Notes:
@@ -382,13 +382,20 @@ Gameplay demo will begin soon, if we have time.
 ::left::
 
 <img 
-  src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://github.com/sounddrill31/XonoticIndia-FOSSUnited-Blr-Jan26" 
+  src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://india.xonotic.au/slides" 
   class="w-45 h-45 rounded-xl shadow-lg border border-gray-200 bg-white p-2"
 />
 
 https://github.com/sounddrill31/XonoticIndia-FOSSUnited-Blr-Jan26
 
-https://india.xonotic.au/slides
+#### Presentation License:
+This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>
+
+<div style="display: flex; align-items: center;">
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+</div>
 
 ::right::
 
